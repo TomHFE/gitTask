@@ -1,4 +1,5 @@
-function helloWorld {
-  console.log('git is awesome');
+function helloWorld() {
+  let input = prompt("type something");
+  console.log(input);
 }
-helloWorld()
+helloWorld();
